@@ -18,10 +18,10 @@ body {
 }
 
 .nav-bar {
-    padding: 20px;
+    padding: 10px;
     font-size: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
+    margin-right: -20px;
 }
 
 /*Mobile nav bar alternative*/
@@ -37,6 +37,8 @@ body {
         overflow: hidden;
         background: linear-gradient(to bottom right, rgb(55, 70, 117), rgb(0, 183, 255));
         position: relative;
+        top: -8px;
+        right: 8px;
     }
 
 /* hide links */
@@ -44,15 +46,24 @@ body {
     display: none;
 }
 
+.nav-bar a {
+    color: turquoise;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
 /* styling for nav icon */
 .nav-bar a.icon {
-    background: black;
     display: block;
     position: absolute;
     right: 0;
     top: 0;
     color: turquoise;
-    padding-right: 20px;
+
+    padding: 15px 15px 15px 15px;
+
 }
 
 /* Nav hover color change */
