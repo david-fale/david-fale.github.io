@@ -1,6 +1,5 @@
 body {
     height: 100vh;
-    display: flex;
     align-items: centre;
     background: linear-gradient(to bottom right, rgb(255, 103, 2), rgb(255, 251, 0));
 }
@@ -15,14 +14,55 @@ body {
     border: groove rgb(255, 103, 2);
     padding: 20px;
     margin-left: auto;
-    background:linear-gradient(to bottom right, rgb(255, 251, 0), rgba(255, 103, 2, 0.185));
+    background-image:linear-gradient(to bottom right, rgb(255, 251, 0), rgba(255, 103, 2, 0.185));
 }
 
-@media (max-width: 600px) {
+.nav-bar {
+    padding: 20px;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Mobile nav bar alternative*/
+@media (max-height: 600px) {
     body {
-        height:auto;
-        display: flex;
+        height:250vh;
         align-items: centre;
-        background: linear-gradient(to bottom right, rgb(255, 103, 2), rgb(255, 251, 0));
+        background-image: linear-gradient(to bottom right, rgb(255, 103, 2), rgb(255, 251, 0));
     }
+
+/* styling the nav bar*/
+    .nav-bar {
+        overflow: hidden;
+        background: linear-gradient(to bottom right, rgb(55, 70, 117), rgb(0, 183, 255));
+        position: relative;
+    }
+
+/* hide links */
+.nav-bar #local-links {
+    display: none;
+}
+
+/* styling for nav icon */
+.nav-bar a.icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: turquoise;
+    padding-right: 20px;
+}
+
+/* Nav hover color change */
+.nav-bar a:hover {
+    color: orange;
+}
+
+/* styling the Nav title */
+.hover {
+    color: turquoise;
+
+}
 }
