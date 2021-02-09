@@ -25,7 +25,7 @@ body {
 }
 
 /*Mobile nav bar alternative*/
-@media (max-height: 700px) {
+@media (max-height: 800px) {
     body {
         height:250vh;
         align-items: centre;
