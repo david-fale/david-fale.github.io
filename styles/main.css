@@ -1,4 +1,5 @@
 body {
+    font-family: 'Roboto', sans-serif;
     height: 100vh;
     align-items: centre;
     background: linear-gradient(to bottom right, rgb(255, 103, 2), rgb(255, 251, 0));
@@ -23,10 +24,60 @@ body {
     margin-left: 0;
     margin-right: -20px;
 }
+/* nav bar */
+.nav-bar {
+    overflow: hidden;
+    background: linear-gradient(to bottom right, rgb(55, 70, 117), rgb(0, 183, 255));
+    position: relative;
+    top: -8px;
+    right: 8px;
+}
 
+/* hide links */
+.nav-bar #local-links {
+display: none;
+}
+
+.nav-bar a {
+color: turquoise;
+padding: 5px;
+text-decoration: none;
+font-size: 17px;
+display: block;
+font-weight: bold;
+}
+
+a {
+    text-align: center;
+}
+
+/* styling for nav icon */
+.nav-bar a.icon {
+display: block;
+position: absolute;
+right: 0px;
+top: 0;
+color: rgba(64, 224, 208, 0);
+
+padding: 15px 15px 15px 15px;
+
+}
+
+/* Nav hover color change */
+a:hover {
+color: rgb(255, 166, 0);
+}
+
+/* styling the Nav title */
+.hover {
+display: block;
+color: turquoise;
+
+}
 /*Mobile nav bar alternative*/
 @media (min-width: 320px) and (max-width: 480px) {
     body {
+        font-family: 'Roboto', sans-serif;
         height:250vh;
         align-items: centre;
         background-image: linear-gradient(to bottom right, rgb(255, 103, 2), rgb(255, 251, 0));
@@ -52,6 +103,10 @@ body {
     text-decoration: none;
     font-size: 17px;
     display: block;
+}
+
+a {
+    text-align: unset;
 }
 
 /* styling for nav icon */

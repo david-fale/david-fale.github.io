@@ -3,18 +3,24 @@
     <title>My blog</title>
     <link rel="stylesheet" type="text/css" href="styles/main.css">
     <script src="https://kit.fontawesome.com/e6816c26c7.js" crossorigin="anonymous"></script>
-
+    <script src="scripts/main.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">  
   <body>
-    <nav class="nav-bar">
-      <ul>
-        <li>
-          <a href="/index.html">home</a>
-        </li>
-        <li>
+    <!-- Navigation bar Menu-->
+    <div class="nav-bar">
+      <a href="/" class="hover" onclick="navMenu()">Map</a>
+      <!-- link to other blogs etc-->
+      <div id="local-links">
+          <a href="./index.html">home</a>
           <a href="blog/sprint1-technical.html">Sprint 1 technical</a>
-        </li>
-      </ul>
-    </nav>
+      </div>
+      <!-- icon for nav bar -->
+      <!-- javascript:void makes the nav Menu button work after two clicks-->
+      <a href="javascript:void(0);" class="icon" onclick="navMenu()">
+        <i class="fas fa-bars"></i>
+      </a>
+    </div>
     <div class="container">
     <h1>Kia ora Taiao! (Hello World!)</h1> 
     <div class="p-tags">
