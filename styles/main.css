@@ -75,7 +75,7 @@ color: turquoise;
 
 }
 /*Mobile nav bar alternative*/
-@media (min-width: 320px) and (max-width: 480px) {
+@media (max-width: 480px) {
     body {
         font-family: 'Roboto', sans-serif;
         height:250vh;
