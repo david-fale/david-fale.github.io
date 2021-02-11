@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     align-items: centre;
-    background: linear-gradient(to bottom right, rgb(255, 103, 2), rgb(255, 251, 0));
+    background: white;
 }
 
 .container {
@@ -12,25 +12,25 @@ body {
 }
 
 .p-tags {
-    border: groove rgb(255, 103, 2);
+    border: groove rgb(255, 0 ,0);
     padding: 20px;
     margin-left: auto;
-    background-image:linear-gradient(to bottom right, rgb(255, 251, 0), rgba(255, 103, 2, 0.185));
+    background-image:white
+    ;
 }
 
-.nav-bar {
-    padding: 10px;
-    font-size: 20px;
-    margin-left: 0;
-    margin-right: -20px;
-}
+
 /* nav bar */
 .nav-bar {
     overflow: hidden;
-    background: linear-gradient(to bottom right, rgb(55, 70, 117), rgb(0, 183, 255));
+    background: rgb(255, 0, 0);
     position: relative;
     top: -8px;
     right: 8px;
+    padding:20px;
+    font-size: 20px;
+    margin-left: 0;
+    margin-right: -20px;
 }
 
 /* hide links */
@@ -39,10 +39,9 @@ display: none;
 }
 
 .nav-bar a {
-color: turquoise;
-padding: 5px;
+color: white;
 text-decoration: none;
-font-size: 17px;
+font-size: 20px;
 display: block;
 font-weight: bold;
 }
@@ -57,22 +56,27 @@ display: block;
 position: absolute;
 right: 0px;
 top: 0;
-color: rgba(64, 224, 208, 0);
-
+color: rgba(0, 0, 0, 0);
 padding: 15px 15px 15px 15px;
-
 }
 
 /* Nav hover color change */
 a:hover {
-color: rgb(255, 166, 0);
+color: rgb(30, 30, 90);
 }
 
 /* styling the Nav title */
 .hover {
 display: block;
-color: turquoise;
+}
 
+.image {
+    display: inline;
+    width: auto;
+    height: 150px;
+    padding: 20px 20px 20px 20px;
+    border-style: dotted;
+    margin-left: 175px;
 }
 /*Mobile nav bar alternative*/
 @media (max-width: 480px) {
@@ -81,13 +85,15 @@ color: turquoise;
         font-size: 20px;
         height:250vh;
         align-items: centre;
-        background-image: linear-gradient(to bottom right, rgb(255, 103, 2), rgb(255, 251, 0));
+        background-color: white;
     }
 
 /* styling the nav bar*/
     .nav-bar {
         overflow: hidden;
-        background: linear-gradient(to bottom right, rgb(55, 70, 117), rgb(0, 183, 255));
+        padding:10px;
+        font-size: 20px;
+        background: rgb(255, 0 ,0);
         position: relative;
         top: -8px;
         right: 8px;
@@ -99,7 +105,7 @@ color: turquoise;
 }
 
 .nav-bar a {
-    color: turquoise;
+    color: white;
     padding: 5px;
     text-decoration: none;
     font-size: 17px;
@@ -116,19 +122,15 @@ a {
     position: absolute;
     right: 0;
     top: 0;
-    color: turquoise;
-
-    padding: 15px 15px 15px 15px;
+    color: white;
+    background-color: rgb(30, 30, 90);
+    padding: 17px 17px 17px 17px;
 
 }
 
 /* Nav hover color change */
 .nav-bar a:hover {
-    color: orange;
+    color: rgb(30, 30, 90);
 }
 
-/* styling the Nav title */
-.hover {
-    color: turquoise;
-}
 }
