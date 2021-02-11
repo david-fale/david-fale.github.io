@@ -39,16 +39,15 @@ display: none;
 }
 
 .nav-bar a {
+float: left;
 color: white;
+padding: 0px 16px;
 text-decoration: none;
 font-size: 20px;
-display: block;
 font-weight: bold;
+
 }
 
-a {
-    text-align: center;
-}
 
 /* styling for nav icon */
 .nav-bar a.icon {
@@ -110,6 +109,7 @@ display: block;
     text-decoration: none;
     font-size: 17px;
     display: block;
+    font-weight: bold;
 }
 
 a {
@@ -132,5 +132,9 @@ a {
 .nav-bar a:hover {
     color: rgb(30, 30, 90);
 }
+
+.hover {
+    display: block;
+    }
 
 }
