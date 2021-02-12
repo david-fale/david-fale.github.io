@@ -93,6 +93,25 @@ display: block;
     float: left;
     margin: 20px 20px 20px 20px;
 }
+
+.image_background {
+    width: 200px;
+    height:200px;
+    background-color: rgb(30, 30, 90);
+    border: rgb(255, 0 ,0) solid;
+    margin-left: 0px;
+}
+.image_background_2 {
+    width: 200px;
+    height:200px;
+    background-color: rgb(30, 30, 90);
+    border: rgb(255, 0 ,0) solid;
+    margin-left: 15%;
+}
+.examples {
+    width: 300px;
+}
+
 /*Mobile nav bar alternative*/
 @media (max-width: 480px) {
     body {
@@ -179,4 +198,27 @@ a {
     width: 88%
 }
 
+.examples {
+    width: 300px;
+    height: 100px
+}
+
+.examples_fix {
+    height: 50px
+}
+
+.image_background {
+    width: 200px;
+    height:200px;
+    background-color: rgb(30, 30, 90);
+    border: rgb(255, 0 ,0) solid;
+    margin-left: auto;
+}
+.image_background_2 {
+    width: 200px;
+    height:200px;
+    background-color: rgb(30, 30, 90);
+    border: rgb(255, 0 ,0) solid;
+    margin-top: 10px;
+    margin-left: auto;
 }
