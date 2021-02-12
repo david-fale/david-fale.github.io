@@ -94,6 +94,24 @@ display: block;
     margin: 20px 20px 20px 20px;
 }
 
+.image-1_1 {
+    width: auto;
+    height: 140px;
+    padding: 20px 20px 20px 20px;;
+    float: left;
+    margin: 20px 20px 5px 20px;
+}
+
+.image-2_1 {
+    width: auto;
+    height: 140px;
+    padding: 20px 20px 20px 20px;;
+    float: right;
+
+    margin: 20px 20px 5px 20px;
+}
+
+
 .image_background {
     width: 200px;
     height:200px;
@@ -111,6 +129,7 @@ display: block;
 .examples {
     width: 300px;
 }
+
 
 /*Mobile nav bar alternative*/
 @media (max-width: 480px) {
@@ -198,14 +217,12 @@ a {
     width: 88%
 }
 
-.examples {
-    width: 300px;
-    height: 100px
-}
 
 .examples_fix {
-    height: 50px
+    height: 25px;
+    width: auto;
 }
+
 
 .image_background {
     width: 200px;
@@ -221,4 +238,18 @@ a {
     border: rgb(255, 0 ,0) solid;
     margin-top: 10px;
     margin-left: auto;
+}
+.image-1_1 {
+    width: auto;
+    height: 140px;
+    padding: 20px 20px 20px 20px;;
+    float: unset;
+    margin: 20px 20px 5px 20px;
+}
+.image-2_1 {
+    width: auto;
+    height: 140px;
+    padding: 20px 20px 20px 20px;;
+    float: unset;
+    margin: 20px 20px 5px 20px;
 }
