@@ -216,12 +216,12 @@ a {
     background-image:white;
     width: 88%
 }
-
-
-.examples_fix {
-    height: 25px;
-    width: auto;
+.examples {
+    width: 225px;
+    heigh: auto;
 }
+
+
 
 
 .image_background {
