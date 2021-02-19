@@ -32,44 +32,40 @@
   </div>
 
   <div class="container">
-    <h1>The CSS Box Model</h1>
-    <h2>How to structure a website from the ground up.</h2>
-    <h3>12 February 2021</h3>
+    <h1>Javascript</h1>
+    <h2>Bringing websites to life</h2>
+    <h3>19 February 2021</h3>
     <div class="content_1">
-      <h3>What is the CSS Box Model</h2>
+      <h3>HTML VS CSS</h2>
       <p>
-        The css box model is what we use to make the layout of our website, it is how we separate and position content on the webpage. The main components are the content, padding, border and margin.
+        HTML is like an empty house; it serves a function but does not look that good on its own. CSS is like the furnishings making the house feel like a home.
       </p>
-      <h3>Units of measurement</h2>
+      <h3>Control flow and loops</h2>
       <p>
-        There are more than one type of unit measurements that you can use to define you parameters here are an example of a few. px is a measurement based off of pixels from the old 1990s CRT monitors and are about 0.25mm and are a fixed measurement. 
-      </p>
-      <p>
-        Em is a bit different as it is not a fixed measurement, it is relative to the font. If the font size is 4pt then 1 em will be 4pt. There are many more fonts but I will let you explore them, heres a <a href="https://www.w3.org/Style/Examples/007/units.en.html">link</a> to a good rescource on unit of measurements 
+        control flow statements (if, for, while) are like a tap and the block statements are like the water. Control flow statements tell the block statements when and how long to do something for. Like turning on and off a tap lets you control how much water comes out. These statements allow you to loop your code blocks until a conditional is met (i.e., stop water when sink is full).
       </p>
     </div>
     <div class="content_2">
-      <h3>Content</h3>
+      <h3>The DOM</h3>
       <p>
-        The content is the images and text we have in our web page, the demesions of this can be specified with the "width" and "height" properties in css. "width" determines how wide the content is, "height" determines how tall the content is.
+        The DOM stands for Document Object Model. This is the contents of the browser window. The DOM is the gateway to all HTML on the webpage. The DOM has nodes which it interacts with, these can be elements in the webpage. The DOM can be manipulated with JavaScript.
       </p>
       
-      <h3>Padding</h3>
-      <p>Padding is the empty white space that surrounds the content. Example The eye has less padding than the star.
-         To do this you need to use the "padding" element in css on to the content you want to add padding to. 
-         <img class="examples" src="../images/padding.PNG" alt="example of padding being used"> <br>Padding can be deffined with any of the aforementioned units of measurement. The order in which you specify the units effects how the padding is applied. The padding will be added in this order. The top, right, bottom and left of the content.</br>
+      <h3>Why interact with the DOM</h3>
+      <p>You might want to interact with the DOM to change the look of your h1 tags. You can do this by using JavaScript to select the element (or node) that is associated with the h1 tags and change its CSS properties. 
       </p>
       
-      <h3>Border</h3>
-      <p>wraps around the padding as exampled to the right (below on mobile) with the dotted lines. To use it in css you use the border element with the style (ie solid, groove, etc) followed by the color. Here I have used rgb.</p>
-      <img class="examples_fix_2" src="../images/border.PNG" alt="example of a border being used">
+      <h3>Acessing data Arrays</h3>
+      <img class="examples_fix_2" src="../images/arry-example.PNG" alt="array example">
+      <p>In the example above we can see how to access data in an array. We use the name of the array (arry) followed by the bracket notation ‘[0]’ with the index (or position) inside the array we want to access. In this example we want to access the item ‘apple’. Since apple is the first item in the array we simply use ‘arry[0]’ to access it (as the index starts at 0 not 1). </p>
+
       
       <h3>Margin</h3>
-      <p>This is the space that separates the content boxes. This would be the space between the eye and the Star's border. Like the padding the margin is deffined by using the same notation and will change it in the same order (from left to right). Top, right, bottom and left sides.</p>
-      <img class="examples examples_fix" src="../images/margin.PNG" alt="example of a margin being used"> 
+      <img class="examples examples_fix" src="../images/obj-example.PNG" alt="object example"> 
+      <p>To access data from an object we can use bracket or dot notation. I.e. ‘car.color’  or ‘car[“color”]’. In the example above we use ‘car.color’ and this returns us the value ‘red’.</p>
+     
     </div>
-    <img class="image" src="../images/eye_of_horus.png" alt="eye of Egypt">
-    <img class="image-2" src="../images/Merkaba.png" alt="eye of Egypt">
+  
   </div>
   </body>
 </html>
