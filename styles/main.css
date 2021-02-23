@@ -216,6 +216,10 @@ a {
     background-image:white;
     width: 88%
 }
+.content_3 {
+    float: right;
+    border-top: 20px;
+}
 .examples {
     width: 225px;
     heigh: auto;
