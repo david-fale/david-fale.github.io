@@ -52,7 +52,7 @@ padding: 0px 16px;
 text-decoration: none;
 font-size: 20px;
 font-weight: bold;
-
+transition: all 0.3s ease;
 }
 
 
@@ -69,11 +69,13 @@ padding: 15px 15px 15px 15px;
 /* Nav hover color change */
 a:hover {
 color: rgb(30, 30, 90);
+transition: all 0.3s ease;
 }
 
 /* styling the Nav title */
 .hover {
 display: block;
+transition: all 0.3s ease;
 }
 
 .image {
