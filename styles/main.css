@@ -33,11 +33,10 @@ body {
     overflow: hidden;
     background: rgb(255, 0, 0);
     position: relative;
-    top: -8px;
-    right: 8px;
     padding:20px;
     font-size: 20px;
     margin: 20px 8.5% 0% 9.5%;
+    width: 80%;
 }
 
 /* hide links */
@@ -123,6 +122,7 @@ transition: all 0.3s ease;
 
 
 .image_background {
+    position: relative;
     width: 200px;
     height:200px;
     background-color: rgb(30, 30, 90);
@@ -130,11 +130,12 @@ transition: all 0.3s ease;
     margin-left: 0px;
 }
 .image_background_2 {
-    width: 200px;
-    height:200px;
+    position: relative;
+    width: 150px;
+    height:150px;
     background-color: rgb(30, 30, 90);
     border: rgb(255, 0 ,0) solid;
-    margin-left: 15%;
+    margin-left: 10%;
 }
 .examples {
     width: 300px;
