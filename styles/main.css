@@ -30,13 +30,18 @@ body {
 
 /* nav bar */
 .nav-bar {
-    overflow: hidden;
+    /* overflow: hidden;
     background: rgb(255, 0, 0);
     position: relative;
     padding:20px;
     font-size: 20px;
     margin: 20px 8.5% 0% 9.5%;
-    width: 80%;
+    width: 80%; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background: red;
 }
 
 /* hide links */
@@ -189,8 +194,7 @@ a {
     position: absolute;
     right: 0;
     top: 0;
-    color: rgb(255, 255, 255);
-    background-color: rgb(30, 30, 90);
+    color: rgb(30, 30, 90);
     padding: 17px 17px 17px 17px;
 
 }
