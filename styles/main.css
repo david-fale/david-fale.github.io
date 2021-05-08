@@ -157,7 +157,7 @@ transition: all 0.3s ease;
         background-color: white;
     }
 
-/* styling the nav bar*/
+    /* styling the nav bar*/
     .nav-bar {
         overflow: hidden;
         padding:10px;
@@ -169,115 +169,115 @@ transition: all 0.3s ease;
         margin: 0 -20px 0 0;
     }
 
-/* hide links */
-.nav-bar #local-links {
-    display: none;
-}
-
-.nav-bar a {
-    color: white;
-    padding: 5px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    font-weight: bold;
-    float: unset;
-}
-
-a {
-    text-align: unset;
-}
-
-/* styling for nav icon */
-.nav-bar a.icon {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: rgb(30, 30, 90);
-    padding: 17px 17px 17px 17px;
-
-}
-
-/* Nav hover color change */
-.nav-bar a:hover {
-    color: rgb(30, 30, 90);
-}
-
-.hover {
-    display: block;
+    /* hide links */
+    .nav-bar #local-links {
+        display: none;
     }
 
-.image {
-    width: 60%;
-    height: 200px;
-    padding: 20px 20px 20px 20px;
-    border-style: dotted;
-    float: left;
-    margin: 20px 20px 20px 0px;
-}
-.image-2 {
-    width: 60%;
-    height: 200px;
-    padding: 40px 40px 40px 40px;
-    border-style: dotted;
-    margin: 20px 20px 20px 0px;
+    .nav-bar a {
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        font-weight: bold;
+        float: unset;
+    }
+
+    a {
+        text-align: unset;
+    }
+
+    /* styling for nav icon */
+    .nav-bar a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: rgb(30, 30, 90);
+        padding: 17px 17px 17px 17px;
+
+    }
+
+    /* Nav hover color change */
+    .nav-bar a:hover {
+        color: rgb(30, 30, 90);
+    }
+
+    .hover {
+        display: block;
+        }
+
+    .image {
+        width: 60%;
+        height: 200px;
+        padding: 20px 20px 20px 20px;
+        border-style: dotted;
+        float: left;
+        margin: 20px 20px 20px 0px;
+    }
+    .image-2 {
+        width: 60%;
+        height: 200px;
+        padding: 40px 40px 40px 40px;
+        border-style: dotted;
+        margin: 20px 20px 20px 0px;
+    }
+
+    .image-3 {
+        width: 100%;
+        height: 200px;
+        margin: 20px 20px 20px 0px;
+    }
+
+    .content_2 {
+        border: groove rgb(255, 0 ,0);
+        padding: 20px;
+        margin: 20px 0px 20px 0px;
+        background-image:white;
+        width: 88%
+    }
+    .content_3 {
+        float: right;
+        border-top: 20px;
+    }
+    .examples {
+        width: 225px;
+        height: auto;
+    }
+
+    .image_background {
+        width: 200px;
+        height:200px;
+        background-color: rgb(30, 30, 90);
+        border: rgb(255, 0 ,0) solid;
+        margin-left: auto;
+    }
+    .image_background_2 {
+        width: 200px;
+        height:200px;
+        background-color: rgb(30, 30, 90);
+        border: rgb(255, 0 ,0) solid;
+        margin-top: 10px;
+        margin-left: auto;
+    }
+    .image-1_1 {
+        width: auto;
+        height: 140px;
+        padding: 20px 20px 20px 20px;;
+        float: unset;
+        margin: 20px 20px 5px 20px;
+    }
+    .image-2_1 {
+        width: auto;
+        height: 140px;
+        padding: 20px 20px 20px 20px;;
+        float: unset;
+        margin: 20px 20px 5px 20px;
+    }
+
 }
 
-.image-3 {
-    width: 100%;
-    height: 200px;
-    margin: 20px 20px 20px 0px;
-}
-
-.content_2 {
-    border: groove rgb(255, 0 ,0);
-    padding: 20px;
-    margin: 20px 0px 20px 0px;
-    background-image:white;
-    width: 88%
-}
-.content_3 {
-    float: right;
-    border-top: 20px;
-}
-.examples {
-    width: 225px;
-    heigh: auto;
-}
-
-
-
-
-.image_background {
-    width: 200px;
-    height:200px;
-    background-color: rgb(30, 30, 90);
-    border: rgb(255, 0 ,0) solid;
-    margin-left: auto;
-}
-.image_background_2 {
-    width: 200px;
-    height:200px;
-    background-color: rgb(30, 30, 90);
-    border: rgb(255, 0 ,0) solid;
-    margin-top: 10px;
-    margin-left: auto;
-}
-.image-1_1 {
-    width: auto;
-    height: 140px;
-    padding: 20px 20px 20px 20px;;
-    float: unset;
-    margin: 20px 20px 5px 20px;
-}
-.image-2_1 {
-    width: auto;
-    height: 140px;
-    padding: 20px 20px 20px 20px;;
-    float: unset;
-    margin: 20px 20px 5px 20px;
-}
 /* Responsive design for tablet 768px*/
 @media (max-width: 768px) {
     body {
@@ -288,7 +288,7 @@ a {
         background-color: white;
     }
 
-/* styling the nav bar*/
+    /* styling the nav bar*/
     .nav-bar {
         overflow: hidden;
         padding:10px;
@@ -300,112 +300,110 @@ a {
         margin: 0 -20px 0 0;
     }
 
-/* hide links */
-.nav-bar #local-links {
-    display: none;
-}
-
-.nav-bar a {
-    color: white;
-    padding: 5px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-    font-weight: bold;
-    float: unset;
-}
-
-a {
-    text-align: unset;
-}
-
-/* styling for nav icon */
-.nav-bar a.icon {
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-    color: rgb(30, 30, 90);
-    padding: 17px 17px 17px 17px;
-
-}
-
-/* Nav hover color change */
-.nav-bar a:hover {
-    color: rgb(30, 30, 90);
-}
-
-.hover {
-    display: block;
+    /* hide links */
+    .nav-bar #local-links {
+        display: none;
     }
 
-.image {
-    width: 60%;
-    height: 200px;
-    padding: 20px 20px 20px 20px;
-    border-style: dotted;
-    float: left;
-    margin: 20px 20px 20px 0px;
-}
-.image-2 {
-    width: 60%;
-    height: 200px;
-    padding: 40px 40px 40px 40px;
-    border-style: dotted;
-    margin: 20px 20px 20px 0px;
-}
+    .nav-bar a {
+        color: white;
+        padding: 5px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+        font-weight: bold;
+        float: unset;
+    }
 
-.image-3 {
-    width: 100%;
-    height: 200px;
-    margin: 20px 20px 20px 0px;
-}
+    a {
+        text-align: unset;
+    }
 
-.content_2 {
-    border: groove rgb(255, 0 ,0);
-    padding: 20px;
-    margin: 20px 0px 20px 0px;
-    background-image:white;
-    width: 88%
-}
-.content_3 {
-    float: right;
-    border-top: 20px;
-}
-.examples {
-    width: 225px;
-    heigh: auto;
-}
+    /* styling for nav icon */
+    .nav-bar a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: rgb(30, 30, 90);
+        padding: 17px 17px 17px 17px;
 
+    }
 
+    /* Nav hover color change */
+    .nav-bar a:hover {
+        color: rgb(30, 30, 90);
+    }
 
+    .hover {
+        display: block;
+        }
 
-.image_background {
-    width: 200px;
-    height:200px;
-    background-color: rgb(30, 30, 90);
-    border: rgb(255, 0 ,0) solid;
-    margin-left: auto;
-}
-.image_background_2 {
-    width: 200px;
-    height:200px;
-    background-color: rgb(30, 30, 90);
-    border: rgb(255, 0 ,0) solid;
-    margin-top: 10px;
-    margin-left: auto;
-}
-.image-1_1 {
-    width: auto;
-    height: 140px;
-    padding: 20px 20px 20px 20px;;
-    float: unset;
-    margin: 20px 20px 5px 20px;
-}
-.image-2_1 {
-    width: auto;
-    height: 140px;
-    padding: 20px 20px 20px 20px;;
-    float: unset;
-    margin: 20px 20px 5px 20px;
+    .image {
+        width: 60%;
+        height: 200px;
+        padding: 20px 20px 20px 20px;
+        border-style: dotted;
+        float: left;
+        margin: 20px 20px 20px 0px;
+    }
+    .image-2 {
+        width: 60%;
+        height: 200px;
+        padding: 40px 40px 40px 40px;
+        border-style: dotted;
+        margin: 20px 20px 20px 0px;
+    }
+
+    .image-3 {
+        width: 100%;
+        height: 200px;
+        margin: 20px 20px 20px 0px;
+    }
+
+    .content_2 {
+        border: groove rgb(255, 0 ,0);
+        padding: 20px;
+        margin: 20px 0px 20px 0px;
+        background-image:white;
+        width: 88%
+    }
+    .content_3 {
+        float: right;
+        border-top: 20px;
+    }
+    .examples {
+        width: 225px;
+        height: auto;
+    }
+
+    .image_background {
+        width: 200px;
+        height:200px;
+        background-color: rgb(30, 30, 90);
+        border: rgb(255, 0 ,0) solid;
+        margin-left: auto;
+    }
+    .image_background_2 {
+        width: 200px;
+        height:200px;
+        background-color: rgb(30, 30, 90);
+        border: rgb(255, 0 ,0) solid;
+        margin-top: 10px;
+        margin-left: auto;
+    }
+    .image-1_1 {
+        width: auto;
+        height: 140px;
+        padding: 20px 20px 20px 20px;;
+        float: unset;
+        margin: 20px 20px 5px 20px;
+    }
+    .image-2_1 {
+        width: auto;
+        height: 140px;
+        padding: 20px 20px 20px 20px;;
+        float: unset;
+        margin: 20px 20px 5px 20px;
+    }
 }
