@@ -3,6 +3,7 @@ body {
     height: 100vh;
     align-items: centre;
     background: rgb(29, 27, 10);
+    color: rgb(199, 199, 199);
 }
 
 .container {
@@ -12,7 +13,7 @@ body {
 }
 /*decorating core content*/
 .content_1 {
-    border: groove rgb(255, 0 ,0);
+    border: groove rgb(33, 44, 66);
     padding: 20px;
     margin-left: auto;
     background-image:white;
@@ -51,7 +52,7 @@ display: none;
 
 .nav-bar a {
 float: left;
-color: rgb(84, 84, 84);
+color: rgb(160, 160, 160);
 padding: 0px 16px;
 text-decoration: none;
 font-size: 20px;
@@ -138,8 +139,8 @@ transition: all 0.3s ease;
     position: relative;
     width: 150px;
     height:150px;
-    background-color: rgb(30, 30, 90);
-    border: rgb(255, 0 ,0) solid;
+    background-color: rgb(255, 255, 255);
+    border: rgb(30, 30, 90) solid;
     margin-left: 10%;
 }
 .examples {
