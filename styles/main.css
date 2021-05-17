@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     height: 100vh;
     align-items: centre;
-    background: white;
+    background: rgb(29, 27, 10);
 }
 
 .container {
@@ -41,7 +41,7 @@ body {
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    background: red;
+    background: rgb(33, 44, 66);
 }
 
 /* hide links */
@@ -51,7 +51,7 @@ display: none;
 
 .nav-bar a {
 float: left;
-color: white;
+color: rgb(84, 84, 84);
 padding: 0px 16px;
 text-decoration: none;
 font-size: 20px;
